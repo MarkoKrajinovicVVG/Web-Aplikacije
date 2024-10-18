@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>VVG</title>
+</head>
+<body>
+    <h1>Naslov</h1>
+    <h2>Podnaslov</h2>
+
+    <p>Odlomak1</p>
+    <p>Odlomak2</p>
+
+    
+    <figure>
+        <a href="https://vvg.hr/app/uploads/2020/10/VVG-2015-50008-scaled-1.jpg" target="_blank">
+            <img src="https://vvg.hr/app/uploads/2020/10/VVG-2015-50008-scaled-1.jpg" alt="VVG Kampus" width="200">
+        </a>
+        <figcaption>VVG kampus</figcaption>
+    </figure>
+
+    
+    <figure>
+        <a href="C:\Users\Ja\Desktop\faks\vvg.jpg" target="_blank">
+            <img src="C:\Users\Ja\Desktop\faks\vvg.jpg" alt="VVG Slika" width="200">
+        </a>
+        <figcaption>VVG slika</figcaption>
+    </figure>
+	
+	<video width="320" height="240" controls >
+		<source src="movie.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+
+	
+	
+	
+	<footer>&copy; Marko Krajinović <a 
+		href="https://github.com/MarkoKrajinovicVVG/Web-Aplikacije/blob/main/vjezba3"
+		target="_blank">Github</a> &amp; Ime projekta. All rights reserved.
+	</footer>
+	
+	
+
+	</body>
+</html>
