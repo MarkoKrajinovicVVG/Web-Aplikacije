@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <h2>Uređena lista</h2>
+    <ol>
+        <li>Samsung</li>
+        <li>Apple</li>
+        <li>Huawei</li>
+        <li>Panasonic</li>
+        <li>Motorola</li>
+    </ol>
+
+
+    <h2>Neuređena lista</h2>
+    <ul>
+        <li>Samsung</li>
+        <li>Apple</li>
+        <li>Huawei</li>
+        <li>Panasonic</li>
+        <li>Motorola</li>
+    </ul>
+
+
+    <h2>Definicijska</h2>
+    <dl>
+        <dt>Samsung</dt>
+        
+        <dt>Apple</dt>
+        
+        <dt>Huawei</dt>
+        
+        <dt>Panasonic</dt>
+        
+        <dt>Motorola</dt>
+       
+    </dl>
+
+ 
+    <h2>Ugnježđena lista</h2>
+    <ul>
+        <li>Samsung
+            <ul>
+                <li>Galaxy S23 Ultra</li>
+                <li>Galaxy S23+</li>
+                <li>Galaxy S23</li>
+                <li>Galaxy z Fold 5</li>
+                <li>Galaxy Z Flip 5</li>
+            </ul>
+        </li>
+        <li>Apple
+            <ul>
+                <li>iPhone 12</li>
+                <li>iPhone 13</li>
+                <li>iPhone 14 Plus</li>
+                <li>iPhone 15 Pro</li>
+            </ul>
+        </li>
+        <li>Huawei
+            <ul>
+                <li>Mate series</li>
+                <li>P series</li>
+            </ul>
+        </li>
+        <li>Panasonic
+            <ul>
+                <li>Viera TVs</li>
+                <li>Lumix Cameras</li>
+            </ul>
+        </li>
+        <li>Motorola
+            <ul>
+                <li>Razr series</li>
+                <li>Edge series</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
