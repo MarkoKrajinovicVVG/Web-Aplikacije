@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popis Mobitela</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            max-width: 100px;
+            max-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Popis Mobitela</h1>
+    <table>
+        <tr>
+            <th colspan="2">Samsung</th>
+            <th colspan="2">Apple</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://www.mall.hr/i/37709221/550/550" alt="Galaxy S8">
+            <td>Galaxy S8</td>
+                
+            </td>
+            <td>
+                <img src="https://www.bajtbox.com/wp-content/uploads/2020/02/iPhone-SE-2-aka-iPhone-9.jpg" alt="iPhone 9">
+            </td>
+            <td>iPhone 9</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://gizzmo.hr/artikli-slike/68783/galerija/reborn-samsung-galaxy-s9-64gb-src-2.jpg" alt="Galaxy S9"><br>
+            </td>
+            <td>Galaxy S9</td>
+            <td>
+                <img src="https://www.mall.hr/i/40003979/550/550" alt="iPhone X"><br>
+            </td>
+            <td>iPhone X</td>
+        </tr>
+    </table>
+</body>
+</html>
