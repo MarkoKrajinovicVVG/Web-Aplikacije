@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatirani Izlaz</title>
+    <style>
+        /* Stil za naslov */
+        h1 {
+            font-family: Verdana, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        /* Stil za tekst */
+        p {
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+        /* Stil za citat */
+        blockquote {
+            font-style: italic;
+            font-weight: bold;
+            border: 1px solid #000;
+            margin: 6px;
+            padding: 6px;
+            background-color: #FFFFCC;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem Ipsum</h1>
+    <p>
+        Lorem ipsum je tekst koji se sastoji od niza slučajnih riječi bez značenja. Iako njegove riječi ne znače ništa, pretpostavlja se da je nastao na temelju Ciceronovog djela „O krajnostima dobra i zla”. Ovaj tekst se već stotinama godina koristi za testiranje ispisa i punjenje prostora tekstom.
+    </p>
+    <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </blockquote>
+</body>
+</html>
