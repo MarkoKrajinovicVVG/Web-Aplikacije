@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatiranje Teksta</title>
+    <style>
+        /* Naslov (HEADING): sva slova velika */
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 2px; /* Razmak između slova */
+            transition: text-shadow 0.3s ease; /* Animacija za sjenu */
+        }
+
+        /* Sjena kada se pređe mišem preko naslova */
+        h1:hover {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Prvi odlomak: razmak između slova i riječi */
+        p:first-of-type {
+            letter-spacing: 2px; /* Razmak između slova */
+            word-spacing: 7px; /* Razmak između riječi */
+        }
+
+        /* Drugi odlomak: razmak između linija */
+        p:nth-of-type(2) {
+            line-height: 20px; /* Razmak između linija */
+        }
+
+        /* Uvlaka za sve odlomke */
+        p {
+            text-indent: 50px; /* Uvlaka */
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+
+    <p>
+        Ovo je prvi odlomak s razmakom između slova i riječi. Dodajemo razmak za lakše čitanje i vizualnu strukturu.
+    </p>
+
+    <p>
+        Ovo je drugi odlomak s povećanim razmakom između linija. U kombinaciji s uvlačenjem, tekst izgleda estetski ugodnije.
+    </p>
+
+    <p>
+        Ovo je dodatni odlomak kako bi se uvlaka primijenila na sve odlomke.
+    </p>
+</body>
+</html>
