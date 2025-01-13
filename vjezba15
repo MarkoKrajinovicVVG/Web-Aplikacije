@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promjena boje linka</title>
+    <style>
+
+        a {
+            color: green;
+            text-decoration: none;
+        }
+
+
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dobrodošli!</h1>
+    <p>
+        Kliknite na <a href="https://www.example.com">ovu vezu</a> za više informacija.
+    </p>
+</body>
+</html>
