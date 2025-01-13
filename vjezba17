@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Različiti Fontovi</title>
+
+    <!-- Uključivanje Google Font Macondo -->
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+    <style>
+        /* Naslov: Verdana, Geneva, sans-serif */
+        h1 {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* Prvi odlomak: Courier New, Courier, monospace */
+        p:first-of-type {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Svi ostali odlomci: Macondo */
+        p:not(:first-of-type) {
+            font-family: 'Macondo', cursive;
+            font-size: 16px;
+            color: #444;
+        }
+
+        /* Stil za linkove (za primjer) */
+        a {
+            color: green;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Naslov sa fontom Verdana</h1>
+
+    <p>
+        Ovo je prvi odlomak sa fontom Courier New. Koristimo ga za prikaz jednostavnog teksta u monospace stilu.
+    </p>
+
+    <p>
+        Ovo je drugi odlomak sa fontom Macondo iz Google Fonts. Sav tekst osim prvog odlomka koristi ovaj font za elegantan stil.
+    </p>
+
+    <p>
+        Dodajte još sadržaja kako biste vidjeli primjenu različitih fontova u dokumentu.
+    </p>
+
+    <p>
+        Kliknite na <a href="https://www.example.com">ovaj link</a> za više informacija.
+    </p>
+</body>
+</html>
