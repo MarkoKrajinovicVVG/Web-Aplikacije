@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Marko Home - Agencija za prodaju nekretnina. Pronađite svoj dom iz snova s našom stručnom pomoći.">
+    <meta name="keywords" content="nekretnine, prodaja nekretnina, stanovi, kuće, Marko Home, agencija za nekretnine">
+    <meta name="author" content="Marko Home">
+    <title>Marko Home - Agencija za prodaju nekretnina</title>
+    <!-- Link to Google Fonts for Oswald -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Oswald', sans-serif;
+            line-height: 1.6;
+        }
+        header.hero {
+            position: relative;
+            width: 100%;
+            height: 60vh; /* Adjust height as needed */
+            overflow: hidden;
+        }
+        header.hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the header area proportionally */
+            object-position: center bottom; /* Shifts focus to the bottom of the image */
+        }
+        header.hero .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+        }
+        header.hero .hero-text h1 {
+            font-size: 2.5rem; /* Adjust size for responsiveness */
+        }
+        header.hero .hero-text p {
+            font-size: 1.2rem;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #f4a261;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        figure {
+            margin-right: 2rem;
+        }
+        figure img {
+            max-width: 500px; /* Maksimalna širina slike */
+            height: auto;
+        }
+        .specifications {
+            width: 40%; /* Postavljanje širine za specifikacije */
+        }
+        .plan-description {
+            width: 55%; /* Postavljanje širine za opis plana */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 2rem 0;
+            display: flex;
+            justify-content: space-between; /* Poravnavanje lijevo i desno */
+            align-items: center;
+        }
+        footer .social-icons {
+            display: flex;
+            justify-content: flex-start; /* Ikone društvenih mreža s lijeve strane */
+        }
+        footer .social-icons a {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 1rem; /* Smanjena veličina fonta */
+            text-decoration: none;
+        }
+        footer .social-icons a:hover {
+            color: #f4a261;
+        }
+        footer .center-content {
+            text-align: center;
+            flex-grow: 1; /* Omogućava centru da raste i zauzme prostor */
+            text-align: center;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #f4a261;
+        }
+        footer img {
+            width: 30px;
+            height: auto;
+            margin-left: 10px;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+            section {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            figure {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+            .specifications, .plan-description {
+                width: 100%; /* Na manjim ekranima, širina oba bloka postaje 100% */
+            }
+            footer {
+                flex-direction: column;
+                align-items: center;
+            }
+            footer .social-icons {
+                justify-content: center;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <img src="https://archicgi.com/wp-content/uploads/2023/08/best-angles-for-real-estate-rendering-shots.jpg" alt="Real Estate Banner">
+        <div class="hero-text">
+            <h1>Marko Home</h1>
+            <p>Vaša pouzdana agencija za prodaju nekretnina</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Početna stranica</a></li>
+            <li><a href="ponuda.html">Ponuda</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="about.html">O nama</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>O nama</h1>
+        <h3>Predstavljamo Marko Home</h3>
+        <section>
+            <figure>
+                <video controls width="500">
+                    <source src="video.mp4" type="video/mp4">
+                    Vaš preglednik ne podržava HTML5 video.
+                </video>
+            </figure>
+                <p><strong> 
+                    Dobrodošli u Marko Home – vašu pouzdanu destinaciju za kupnju, prodaju i najam nekretnina!  
+                    <br>
+                    Naša misija je povezati ljude s njihovim idealnim domovima i investicijskim prilikama. 
+                    <br>
+                    Bilo da tražite moderan stan u gradu, obiteljsku kuću u mirnom naselju ili poslovni prostor prilagođen vašim potrebama, tim stručnjaka u Marko Home tu je kako bi vam pomogao ostvariti vaše snove.  
+                    <br>
+                    S dugogodišnjim iskustvom na tržištu nekretnina i dubokim poznavanjem lokalnog tržišta, ponosimo se personaliziranim pristupom svakom klijentu. 
+                    <br>
+                    Naša filozofija temelji se na transparentnosti, povjerenju i profesionalnosti. Vaše zadovoljstvo naša je najveća nagrada.  
+                    <br>
+                    U Marko Home razumijemo da je kupnja ili prodaja nekretnine jedna od najvažnijih odluka u životu. 
+                    <br>
+                    Zato nudimo cjelovitu podršku – od početnih konzultacija i pregleda nekretnina do pravne pomoći i zaključivanja ugovora.  
+                    <br>
+                    Povjerite nam svoju potragu za savršenim domom i uvjerite se zašto je Marko Home sinonim za kvalitetu i pouzdanost u svijetu nekretnina.  
+                    <br>
+                    Kontaktirajte nas već danas i krenimo zajedno na vaše putovanje ka domu iz snova!</strong></p>
+        </section>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+        <div class="center-content">
+            <p>&copy; 2024 Marko Home</p>
+            <p>Posjetite moj <a href="https://github.com/MarkoKrajinovicVVG" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>
