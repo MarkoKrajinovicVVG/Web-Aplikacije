@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARQ Tool Watch Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: url("images/51792-HEADER-1-T.webp") no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #000;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .product-section {
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        .product-section h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-details {
+            padding: 15px;
+        }
+
+        .product-details h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .product-details p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .product-details a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background: #000;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .product-details a:hover {
+            background: #444;
+        }
+
+        footer {
+            text-align: center;
+            background: #000;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MARQ® Tool Watch Collection</h1>
+    </header>
+
+    <nav>
+        <a href="#">Homepage</a>
+        <a href="#">Article</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="product-section">
+        <h2>Luxury Smartwatches</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://res.garmin.com/transform/image/upload/c_limit,dpr_1.0,f_auto,h_1242,q_auto,w_2600/c_limit,h_1242,w_2600/v1/Product_Images/en/products/010-02648-31/v/cf-xl?pgw=1&pgwact=1" alt="MARQ Adventurer">
+                <div class="product-details">
+                    <h3>MARQ Adventurer</h3>
+                    <p>High-performance GPS smartwatch with topographic maps and adventure tracking features.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://res.garmin.com/transform/image/upload/c_limit,dpr_1.0,f_auto,h_1242,q_auto,w_2600/c_limit,h_1242,w_2600/v1/Product_Images/en/products/010-02648-41/v/cf-xl?pgw=1&pgwact=1" alt="MARQ Athlete">
+                <div class="product-details">
+                    <h3>MARQ Athlete</h3>
+                    <p>Smartwatch designed for athletes with advanced performance metrics.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://res.garmin.com/transform/image/upload/c_limit,dpr_1.0,f_auto,h_955,q_auto,w_2000/c_limit,h_955,w_2000/v1/Product_Images/en/products/010-02648-01/v/cf-xl?pgw=1" alt="MARQ Aviator">
+                <div class="product-details">
+                    <h3>MARQ Aviator</h3>
+                    <p>Luxury aviation smartwatch with flight tracking features.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Garmin 2025</p>
+    </footer>
+</body>
+</html>
